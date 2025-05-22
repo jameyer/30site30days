@@ -1,0 +1,347 @@
+/* Google Fonts */
+
+.baloo-regular {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.baloo-bold {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.glegoo-regular {
+    font-family: "Glegoo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.glegoo-bold {
+    font-family: "Glegoo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+:root {
+    --main-background-color: #d6e5de;
+    --main-text-color: #125451;
+
+}
+
+html {
+    font-size: 16px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Glegoo", serif;
+    font-weight: 700;
+
+}
+
+body {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 98%;
+    margin: 0 auto;
+    max-width:87.5rem;
+
+
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+#menu {
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+    max-height: 0;
+    grid-area: menu;
+
+}
+
+#menu.show {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 500px;
+    z-index: 1;
+    background-color: white;
+    width: 80%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#menu li {
+    border: #125451 solid 1px;
+    padding: .2rem;
+    text-decoration: none;
+}
+
+#menu li:last-child {
+    border: none;
+}
+
+#menu button {
+    padding: .5rem;
+    text-align: center;
+    border-radius: .5rem;
+    background-color: var(--main-text-color);
+    color: white;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+#hamburger {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    grid-area: hamburger;
+    justify-self: end;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    grid-template-areas:
+        "header hamburger"
+        "main main"
+        "footer footer";
+    row-gap: 20px;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    border-top: #125451 1px solid;
+
+
+}
+
+aside:last-child {
+    border-bottom: #125451 1px solid;
+}
+
+.quote-name {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.quote {
+    font-style: italic;
+}
+
+footer {
+    grid-area: footer;
+    padding: 1rem;
+    
+    
+}
+
+footer,
+footer a {
+
+    background-color: #125451;
+    color: white;
+
+}
+
+
+
+h2 {
+    margin: 2rem 0;
+    border-bottom: 1px solid #125451;
+}
+
+.social-icons{
+    display:flex;
+    gap:.2rem;
+    justify-content:center;
+}
+
+
+.icon {
+    display:inline-block;
+    width: 60px;
+    /* Set to your icon width */
+    height: 60px;
+    /* Set to your icon height */
+    background-image: url('../img/outline-social-icons.jpg');
+    background-repeat: no-repeat;
+}
+
+/* Example: If each icon is 50x50px and arranged horizontally */
+.social1 {
+    background-position: -102px -38px;
+    border-radius:50%;
+    
+}
+
+.social2 {
+    background-position: -196px -38px;
+    border-radius:50%;
+    
+}
+
+.social3 {
+    background-position: -666px -226px;
+    border-radius:50%;
+}
+
+.social4 {
+    background-position: -290px -320px;
+    border-radius:50%;
+}
+
+.social5 {
+    background-position: -666px -38px;
+    border-radius:50%;
+}
+
+.extra-pic {
+    display:none;
+}
+
+
+
+
+
+@media (min-width:480px) {
+    #hamburger {
+        visibility: hidden;
+    }
+
+    #menu {
+        visibility: visible;
+        max-height: 500px;
+
+    }
+
+    .container {
+        padding-top: 1rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "header header"
+            "menu menu"
+            "main main"
+            "footer footer";
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    #menu li {
+        padding: 1 rem;
+
+        line-height: 2.1;
+    }
+
+    .portfolio h3 {
+        padding: 1rem;
+    }
+
+    .social-icons {
+        gap:1rem;
+    }
+
+}
+
+@media (min-width:768px) {
+    .container {
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-areas:
+            "header header menu"
+            "main main main"
+            "footer footer footer";
+
+    }
+
+
+
+    .layout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+    .layout img {
+        height: 15rem;
+    }
+
+
+    .quoteblock {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+
+    .quoteblock aside {
+        border: #125451 dashed 1px;
+
+    }
+
+
+
+
+}
+
+@media (min-width:1024px) {
+
+    .extra-pic {
+        display:inline-block;
+    }
+
+
+}
