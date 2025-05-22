@@ -1,0 +1,120 @@
+positive: Sleek modern website with a clear header, intuitive navigation bar, and footer containing social links and contact info.
+negative: Cluttered layout, unreadable fonts, and missing navigation elements.
+name: Modern Portfolio
+----------
+positive: Warm, inviting restaurant homepage with easy menu access and reservation info in the footer.
+negative: Hard-to-read fonts or confusing navigation.
+name: Urban Bistro Restaurant
+----------
+positive: Futuristic landing page for a tech startup, featuring bold gradients and dynamic navigation.
+negative: Outdated design elements or slow-loading images.
+name: Tech Startup Launch
+----------
+positive: Travel blog with scenic header, easy blog navigation, and a footer linking to social media.
+negative: Small images or missing navigation links.
+name: World Traveler Blog
+----------
+positive: Trendy sneaker store with bold product displays and a clear, sticky navigation bar.
+negative: Cluttered product layout or hard-to-find categories.
+name: Sneaker E-Commerce
+----------
+positive: Minimalist photography portfolio with fullscreen header image and simple navigation.
+negative: Distracting backgrounds or tiny image thumbnails.
+name: Photo Showcase
+----------
+positive: Friendly nonprofit site with clear donation options and a welcoming header.
+negative: Complicated donation process or generic design.
+name: Helping Hands Nonprofit
+----------
+positive: Motivational fitness trainer site with energetic colors and easy class schedule access.
+negative: Overwhelming animations or hidden contact info.
+name: FitPro Trainer
+----------
+positive: Vibrant music festival page with artist lineup and interactive schedule.
+negative: Confusing navigation or slow event loading.
+name: Festival Vibes
+----------
+positive: Clean online resume for a developer, highlighting skills and projects with a modern touch.
+negative: Overly flashy effects or hard-to-read text.
+name: Dev Resume
+----------
+positive: Playful pet adoption site with animal illustrations and clear adoption calls-to-action.
+negative: Overly busy design or missing pet details.
+name: Happy Tails Adoption
+----------
+positive: Cozy bookstore homepage with staff picks and upcoming events in a warm layout.
+negative: Hard-to-read fonts or cluttered book listings.
+name: Book Nook
+----------
+positive: Elegant wedding planner site with pastel colors and a gallery of past events.
+negative: Overused stock images or disorganized navigation.
+name: Dream Day Planner
+----------
+positive: Dynamic gaming community portal with leaderboards and easy forum access.
+negative: Overwhelming graphics or hard-to-find content.
+name: GameHub Community
+----------
+positive: Minimalist art gallery website with featured exhibits and a clean, airy layout.
+negative: Distracting colors or unclear navigation.
+name: Modern Art Gallery
+----------
+positive: Professional online course platform with clear course listings and instructor profiles.
+negative: Confusing course navigation or poor readability.
+name: LearnOnline Academy
+----------
+positive: Stylish fashion boutique site with large visuals and smooth navigation.
+negative: Overcrowded product pages or slow image loading.
+name: Chic Boutique
+----------
+positive: Bold car dealership homepage with featured vehicles and easy financing info.
+negative: Outdated graphics or cluttered navigation.
+name: AutoDrive Dealership
+----------
+positive: Professional real estate agency site with property listings and agent bios.
+negative: Confusing property filters or missing contact info.
+name: Prime Realty
+----------
+positive: Futuristic science blog with interactive diagrams and clear article navigation.
+negative: Distracting animations or hard-to-read layouts.
+name: Future Science Blog
+----------
+positive: Playful children’s educational site with bright colors and engaging games.
+negative: Overly complex navigation or small clickable areas.
+name: Kids Learn & Play
+----------
+positive: Rustic coffee shop site with menu highlights and local event info.
+negative: Hard-to-find location or outdated menu.
+name: Brewed Awakenings
+----------
+positive: Cinematic movie streaming homepage with bold posters and intuitive categories.
+negative: Overwhelming homepage or confusing movie filters.
+name: StreamFlix
+----------
+positive: Sophisticated interior design portfolio with large project images and elegant fonts.
+negative: Cluttered galleries or inconsistent color schemes.
+name: Luxe Interiors
+----------
+positive: Energetic fitness app landing page with app features and user reviews.
+negative: Overly technical language or missing download links.
+name: FitApp Launch
+----------
+positive: Creative craft store website with DIY tutorials and colorful product categories.
+negative: Unclear navigation or small product images.
+name: Crafty Corner
+----------
+positive: Modern gadget review blog with comparison charts and easy navigation.
+negative: Overly technical jargon or slow page loads.
+name: TechReview Hub
+----------
+positive: Romantic wedding photography site with soft colors and elegant galleries.
+negative: Cluttered layouts or low-res images.
+name: EverAfter Photography
+----------
+positive: Friendly language learning platform with progress tracking and community forums.
+negative: Complicated sign-up or unclear course structure.
+name: LinguaLearn
+----------
+positive: Professional virtual conference event site with agenda, speaker bios, and live links.
+negative: Hard-to-find registration or outdated event info.
+name: Virtual Summit 2025
+----------
