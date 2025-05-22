@@ -1,0 +1,309 @@
+
+.urbanist-regular {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.roboto-serif-regular{
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
+}
+
+.urbanist-bold {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.roboto-serif-bold {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
+}
+
+
+
+:root{
+    --background-color:#1e0901;
+    --text-color:white;
+    --button-color:#f3762f;
+}
+
+
+
+body{
+    width:95%;
+    font-size:16px;
+    font-family:"Urbanist", sans-serif;
+    line-height: 1.5;
+    margin:0 auto;
+    background-color: var(--background-color);
+        color: var(--text-color);
+    max-width:1024px;
+    
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Serif", serif;
+}
+
+h1{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+h2{
+    font-size:1.5rem;
+    font-weight:500;
+}
+
+button{
+    background-color:var(--button-color);
+    color:var(--text-color);
+    padding:.5rem;
+    border-radius:.5rem;
+
+}
+
+.container{
+    display:grid;
+    
+
+}
+
+nav {
+    display:flex;
+    align-items:normal;
+    gap: .8rem;
+    margin-top:2rem;
+
+}
+nav img{
+    height:7rem;
+    z-index:1;
+    margin-top:-1rem;
+}
+nav button{
+    height:2.1rem;
+    font-size:.7rem;
+    width:4.9rem;
+    margin-right:1rem;
+    
+}
+nav ul {
+    display:flex;
+    gap:1rem;
+    margin-left: -1rem;
+    
+}
+nav li {
+    padding-top:.5rem;
+}
+nav a{
+    color:var(--text-color);
+    text-decoration:none;
+}
+
+header {
+    background:/* top, transparent white */
+        linear-gradient(rgba(30,9,1, 1),
+            rgba(30,9,1, 0.30)),
+        /* bottom, image */
+        url(../img/hero.png) 100% 50% / cover;
+    background-position:bottom;
+    height:20rem;
+    margin-top:-3rem;
+}
+
+.head-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    padding-left:1rem;
+    
+    
+}
+.head-container button{
+    margin-left:25%;
+}
+
+.head-container form{
+    background-color:white;
+    color:var(--background-color);
+    max-width:200px;
+    margin-top:4rem;
+    margin-left:auto;
+    margin-right:1rem;
+    
+    padding:.5rem;
+
+    
+}
+
+
+form input{
+    width:45%;
+}
+
+form h2{
+    font-size:1rem;
+}
+form li, form button{
+    font-size:.8rem;
+    padding-left:.2rem;
+}
+form button{
+    background-color:var(--background-color);
+    margin-top:1rem;
+}
+
+.intro {
+    padding-left:1rem;
+}
+
+.special{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1rem;
+    margin:1rem;
+    align-items:center;
+    padding:1rem;
+}
+
+.special img {
+    height:10rem;
+}
+
+
+.reservation{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:"menu text";
+    gap:1rem;
+    padding:1rem;
+
+}
+
+.reservation button{
+    margin-left:20%;
+}
+.reservation-text{
+    margin-top:8rem;
+    padding:1rem;
+    grid-area:text;
+}
+
+.reservation form {
+    background-color:var(--background-color);
+    padding-top: 0;
+    margin-top: 1rem;
+    margin-bottom:0;
+    padding-bottom:0;
+
+}
+
+.reservation input {
+    width:10rem;
+    
+}
+
+.reservation-menu{
+    background:white;
+    grid-area:menu;
+    max-width:10rem;
+}
+
+
+
+footer p {
+    text-align:center;
+    line-height:3;
+}
+
+@media (min-width:480px){
+    nav img {
+        height:10rem;
+    }
+
+    nav {
+        
+        margin-top:2rem;
+        
+    }
+    nav button {
+        width:4.9rem;
+    }
+
+    nav ul{
+        margin-left: auto;
+    }
+        header {
+            margin-top: -4rem;
+    
+        }
+
+
+}
+
+@media (min-width:768px) {
+    nav img {
+        height: 15rem;
+    }
+
+
+    nav ul {
+        margin-left: auto;
+        gap:3rem;
+    }
+    nav button {
+        margin-left:3rem;
+    }
+
+    header{
+        margin-top: -5rem;
+
+    }
+
+    .special img{
+        margin-left:auto;
+        margin-right:5rem;
+    }
+
+    .reservation-menu {
+        margin-left:auto;
+        margin-right:5rem;
+    }
+
+    .reservation-text {
+        max-width:10rem;
+    }
+
+    section{
+        margin-top:4rem;
+    }
+
+    hr{
+        margin:4rem;
+    }
+
+
+        
+
+
+}
+
