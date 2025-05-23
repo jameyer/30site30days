@@ -1,0 +1,309 @@
+/* Variables */
+
+:root {
+    --button-color: #fa7129;
+    --background-radial: radial-gradient(at bottom right, rgb(250, 124, 63), rgb(250, 206, 157), rgb(252, 79, 169), rgb(253, 146, 158));
+    --primary-color: #040c2e;
+    --secondary-color: #ffffff;
+    --b-background: radial-gradient(at bottom left, rgb(245, 88, 146), rgb(115, 125, 250));
+    --c-background: #ded3e8;
+    --d-background: #ae78b3;
+
+}
+
+/* Fonts */
+
+.prosto-one-regular {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comfortaa-regular {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comfortaa-bold {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Common */
+
+body {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Prosto One", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* Container */
+
+.top-container {
+    display: grid;
+
+    
+
+}
+
+/* Hero */
+
+
+
+.hero {
+    background: var(--background-radial);
+    display: grid;
+
+
+
+}
+
+/* Hero header */
+h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+h3{
+    font-size:1.3rem;
+    letter-spacing:-.1rem;
+}
+
+/* hero nav */
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: .2rem .5rem;
+    border-radius: .5rem;
+
+}
+
+.hero-text {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.hero-text h2 {
+    font-size: 1.8rem;
+    margin: 2rem;
+
+}
+
+.hero-text button {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: white solid .1rem;
+    background-color: var(--button-color);
+    color: white;
+    margin-top: 2rem;
+
+}
+
+.hero-nest {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.hero-nest img {
+    height: 10rem;
+}
+
+
+
+
+/* Main */
+main {
+    margin: 1rem;
+
+}
+
+/* Main details */
+.details {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f';
+
+
+}
+
+.det-format {
+    padding: 1rem;
+}
+
+.a {
+    grid-area: a;
+    border-radius:.5rem;
+
+}
+
+.b {
+    grid-area: b;
+    background: var(--b-background);
+    border-radius: .5rem;
+
+}
+
+.c {
+    grid-area: c;
+    background-color: var(--c-background);
+    border-radius: .5rem;
+
+}
+
+.d {
+    grid-area: d;
+    background-color: var(--d-background);
+    border-radius: .5rem;
+}
+
+.e {
+    grid-area: e;
+    background-color: var(--d-background);
+    border-radius: .5rem;
+}
+
+.f {
+    grid-area: f;
+    background-color: var(--d-background);
+    border-radius: .5rem;
+}
+
+/* Main prod-blurb */
+
+.prod-blurb {
+    display: grid;
+
+}
+
+.prod-blurb h3,
+.prod-blurb p {
+    padding-top: 2rem;
+
+}
+
+.prod-blurb img {
+    height: 250px;
+
+}
+
+
+
+/* footer */
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+@media (min-width:768px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            'header nav nav'
+            'hero hero hero'
+    }
+
+
+    header {
+        grid-area: header;
+
+    }
+
+    nav {
+        grid-area: nav;
+        margin-right: auto;
+    }
+
+    main {
+        padding: 3rem;
+
+    }
+
+    .hero-text {
+        grid-area: hero;
+
+    }
+
+    .hero-nest {
+        display: grid;
+        padding: 4rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            'nesta nestc'
+            'nestb nestc'
+    }
+
+    .nest-a {
+        grid-area: nesta
+    }
+
+    .nest-b {
+        grid-area: nestb
+    }
+
+    .nest-c {
+        grid-area: nestc
+    }
+
+    .details {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            'a a b'
+            'c c b'
+            'c c b'
+            'd e f';
+        
+    }
+
+    .prod-blurb {
+        margin-top:3rem;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        align-items:center;
+        
+    }
+
+
+
+
+
+}
