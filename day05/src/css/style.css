@@ -1,0 +1,164 @@
+:root{
+    --color-primary: #0f640f;
+    --color-black: #311f1f;
+    --color-white: #ffffff;
+    --color-light-yellow:#fff7b1;
+    --color-light-blue:#e7f4ff;
+    --color-light-green:#e8f4eb;
+    --color-pink: #e2bac7;
+
+    --text-color: var(--color-black);
+}
+
+body{
+    color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+}
+
+h1 , h2, h3, h4, h5, h6{
+    color:var(--color-black);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.marquee-container {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: var(--color-pink);
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee-text {
+    position: absolute;
+    color:var(--color-black);
+    white-space: nowrap;
+    font-size: 2em;
+    left: 100%;
+    will-change: transform;
+    transition: none; }
+
+header{
+    
+    display:flex;
+    justify-content:space-between;
+    padding:1rem;
+    align-items:center;
+   
+}
+
+
+header input{
+    border-bottom-left-radius:5rem;
+    border-top-left-radius: 5rem;
+    margin-right:0;
+    padding:.5rem;
+
+}
+header button {
+    border-bottom-right-radius:5rem;
+    border-top-right-radius: 5rem;
+    margin-left:-1rem;
+    padding:.5rem;
+    background-color:orange;
+    color:white;
+    font-weight:bold;
+
+}
+
+nav ul{
+    display:flex;
+    justify-content:space-around;
+    list-style:none;
+    flex-wrap:wrap;
+}
+nav li{
+    padding:1rem;
+}
+nav a{
+    color:var(--color-primary);
+    font-size:1.5rem;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+
+
+main section h2{
+    font-size:2rem;
+    line-height:2;
+    margin:2rem;
+}
+main section p{
+    margin:2rem;
+    text-align:center;
+}
+
+main section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:2rem;
+}
+
+
+
+
+
+
+.basketball{
+    background-color:var(--color-light-blue);
+}
+
+.baseball{
+    background-color:var(--color-light-green);
+}
+
+.tennis{
+    background-color:var(--color-light-yellow);
+}
+
+.shoe-row{
+    display:flex;
+    gap:2rem;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+.shoe-card{
+    display:flex;
+    flex-direction:column;
+}
+.shoe-pic{
+    width:10rem;
+}
+
+footer {
+    background-color:var(--color-black);
+    color: var(--color-white);
+    display:flex;
+    justify-content:space-around;
+    
+}
+footer ul{
+    display:flex;
+    list-style:none;
+    flex-direction:column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    
+}
+footer li{
+   padding:.5rem 0;
+   
+}
+footer a{
+    color:var(--color-white);
+    text-decoration:none;
+}
