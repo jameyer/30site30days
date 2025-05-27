@@ -1,0 +1,558 @@
+.newsreader-regular {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+body {
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 95%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+
+
+
+}
+
+
+header ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+
+}
+
+header ul li {
+    list-style: none;
+    padding: .5rem;
+    font-size: 1.5rem;
+
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header button {
+    background-color: Green;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    margin-right: 2rem;
+
+}
+
+.hero {
+    background-color: lightslategray;
+    color: white;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-top: 5rem;
+    border-radius: 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-left: 10rem;
+    text-align: center;
+    width: 50%;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 10rem;
+    width: 50%;
+    margin-top: 2rem;
+
+
+}
+
+.hero img {
+    height: 20rem;
+
+}
+
+main {
+    line-height: 1.5;
+}
+
+.call-to-action {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: lightblue;
+    border-radius: 1rem;
+
+
+}
+
+.cta {
+    height: 10rem;
+    background-color: rgba(78, 78, 161, 0.596);
+    border-radius: 1rem;
+    width: 15rem;
+    align-self: center;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.cta h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.cta p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta button {
+    background-color: gray;
+    color: white;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    margin: 0 auto;
+}
+
+.cta-main {
+    background-color: rgba(0, 0, 139, 0.596);
+}
+
+.cta-main button {
+    background-color: green;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: lightskyblue;
+}
+
+.about img {
+
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.about-text {
+    align-self: center;
+    margin-right: 2rem;
+    color: white;
+}
+
+.about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 75%;
+}
+
+.feel-good {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(59, 226, 59, 0.822);
+    color: white;
+}
+
+.feel-good img {
+    height: 10rem;
+    border-radius: 1rem;
+
+}
+
+.feel-good-text {
+    align-self: center;
+    margin-left: 2rem;
+}
+
+.feel-good h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feel-good p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 75%;
+}
+
+footer {
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+
+
+}
+
+footer li {
+    padding: .3rem;
+}
+
+@media (max-width:900px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    nav li a {
+        font-size: 1.2rem;
+    }
+
+    nav button {
+        font-size: 1.2rem;
+        padding: .3rem .5rem;
+        border-radius: .5rem;
+    }
+
+    .hero {
+        align-items: center;
+        height: auto;
+        padding-top: 0;
+
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+
+    }
+}
+
+@media (max-width:700px) {
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    nav li a {
+        font-size: 1rem;
+    }
+
+    nav button {
+        font-size: 1rem;
+        padding: .3rem .5rem;
+        border-radius: .5rem;
+    }
+
+    .hero {
+        align-items: center;
+        height: auto;
+        padding-top: 0;
+
+    }
+
+    .hero img {
+        height: 12rem;
+    }
+
+    .hero h1 {
+        font-size: 1.3rem;
+
+
+    }
+
+    .hero p {
+        font-size: .9rem;
+        margin-top: .5rem;
+    }
+
+    main {
+        line-height: 1.2;
+    }
+
+    .call-to-action {
+
+        gap: 1rem;
+        margin-top: 1rem;
+        justify-content: space-between;
+        padding: 2rem;
+        background-color: lightblue;
+        border-radius: 1rem;
+
+
+    }
+
+    .cta {
+        height: auto;
+
+        border-radius: 1rem;
+        width: 15rem;
+        align-self: center;
+        text-align: center;
+
+    }
+
+    .cta h2 {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .cta p {
+        font-size: .9rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta button {
+        font-size: 1rem;
+        border-radius: .5rem;
+    }
+
+    .about {
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:0;
+        
+    }
+    .about img {
+        height: 10rem;
+        border-radius: 1rem;
+        display:block;
+        margin:0 auto;
+    }
+    .about-text {
+        text-align: center;
+        margin-right: 0;
+        color: white;
+        
+    }
+    .about p {
+        font-size: .9rem;
+        width:20rem;
+        display:block;
+        margin:0 auto;
+    }
+    .feel-good {
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:0;
+        
+
+    }
+    .feel-good img {
+        height: 8rem;
+        border-radius: 1rem;
+        display:block;
+        margin:0 auto;
+    }
+    .feel-good-text {
+        text-align: center;
+        margin-left: 0;
+    }
+    .feel-good p {
+        font-size: .9rem;
+        width:20rem;
+        display:block;
+        margin:0 auto;
+    }
+}
+@media (max-width:610px){
+
+    
+        nav ul {
+            gap: 0;
+        }
+
+    
+        nav li a {
+            font-size: 1rem;
+        }
+    
+        nav button {
+            font-size: 1rem;
+            padding: .3rem .5rem;
+            border-radius: .5rem;
+        }
+    
+        .hero {
+            align-items: center;
+            height: auto;
+            padding-top: 1rem;
+            padding-bottom:1rem;
+            display:grid;
+            grid-template-columns: 1fr;
+           
+    
+        }
+        .hero img {
+            height:8rem;
+            display:block;
+            margin:0 auto;
+        }
+        .call-to-action {
+            display:grid;
+            grid-template-columns: 1fr;
+            gap:1rem;
+            
+            
+
+        }
+
+        .cta{
+            display:block;
+            margin:0 auto;
+        }
+
+        header{
+            display:grid;
+            grid-template-columns: 1fr;
+        }
+        header h1{
+            font-size:1.5rem;
+            line-height:3;
+        }
+        nav {
+            padding-left:2rem;
+            background-color:gray;
+            border-bottom-left-radius:1rem;
+            border-bottom-right-radius:1rem;
+        }
+
+}
