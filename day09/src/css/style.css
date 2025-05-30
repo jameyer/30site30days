@@ -1,0 +1,343 @@
+:root {
+
+    --header-bar: #412b30;
+    --note: #ffab1d;
+    --pink: #d352b7;
+
+
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand-normal {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.exo-bold {
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    background: black;
+    color: white;
+    font-size: 16px;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+p,
+a,
+li,
+button {
+    font-family: "Quicksand", sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+.containter {
+    display: grid;
+}
+
+header {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: var(--header-bar);
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    border-radius: .5rem;
+
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+
+}
+
+header nav li {
+    line-height: 2;
+
+
+}
+
+header nav button {
+    background-color: var(--note);
+    padding: .3rem;
+    border-radius: .5rem;
+
+}
+
+
+
+.hero {
+
+    background:
+        /* top, transparent white */
+        linear-gradient(rgba(160, 7, 231, 0.418),
+            rgba(65, 5, 25, 0.685)),
+        /* bottom, image */
+        url(../img/hero.png) 50% 50% / cover no-repeat;
+    background-size: 100% 30rem;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.hero-left-side {
+    text-align: center;
+
+}
+
+.hero-left-side h1 {
+    font-size: 1.2rem;
+}
+
+.hero-left-side h2 {
+    font-size: 1.5rem;
+}
+
+.hero-left-side h3 {
+    font-size: 2rem;
+}
+
+.hero-left-side p {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.hero-right-side {
+    display: none;
+}
+
+#nav-sidebar {
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+#nav-sidebar li {
+    padding: 1rem;
+    text-align: center;
+}
+
+#nav-sidebar img {
+    height: 8rem;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    gap: 1rem;
+
+
+}
+
+.seating {
+    padding-top: 2rem;
+}
+
+.seating-chart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 50vh;
+    margin-top: 2rem;
+
+}
+
+.pos1 {
+    background-color: rgb(104, 17, 17);
+
+}
+
+.pos2 {
+    background-color: blue;
+}
+
+.pos3 {
+    background-color: rgb(104, 17, 17);
+}
+
+.pos4 {
+    background-color: yellow
+}
+
+.pos5 {
+    background-color: yellow;
+}
+
+.pos6 {
+    background-color: yellow;
+}
+
+.pos7 {
+    background-color: azure;
+}
+
+.pos8 {
+    background-color: azure;
+}
+
+.pos9 {
+    background-color: azure;
+}
+
+footer {
+    padding: 1rem;
+}
+
+
+
+@media (min-width:768px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width:1024px;
+        margin:0 auto;
+
+        grid-template-areas:
+            "a a a"
+            "b b b"
+            "b b b"
+            "c d d"
+
+    }
+
+    header {
+        grid-area: a;
+        margin-bottom: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    header nav ul {
+
+        gap: 3rem;
+    }
+
+    header nav li {
+
+        line-height: 4rem;
+    }
+
+
+
+
+
+
+    .hero {
+        grid-area: b;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        height: 40rem;
+        background-size: 100% 45rem;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        padding-top:.5rem;
+    }
+
+    .hero-left-side h1{
+        text-align:left;
+        font-size:2rem;
+    }
+
+    .hero-left-side h2{
+        text-align: left;
+        font-size:2.5rem;
+        
+    }
+
+    .hero-left-side h3 {
+        text-align: left;
+        font-size:3rem;
+        
+    }
+
+    .hero-left-side p {
+        text-align: left;
+        margin:0;
+    
+    }
+
+    .hero-right-side {
+        display: block;
+    }
+
+    .hero-right-side aside{
+        background-color:white;
+        color:black;
+        padding:1rem;
+        width:15rem;
+        margin-top:8rem;
+        margin-left:auto;
+        margin-right:1rem;
+        border-radius:1rem;
+    }
+
+    .hero-right-side button {
+        margin:0 auto;
+        display:block;
+        background-color:var(--note);
+        padding:.5rem 1rem;
+        border-radius:.5rem;
+    }
+
+    #nav-sidebar {
+        grid-area: c;
+        margin-top: -28rem;
+
+    }
+
+    main {
+        grid-area: d;
+        padding-left:2rem;
+    }
+
+    main .seating {
+        margin-top:3rem;
+    }
+
+    footer {
+        grid-area: e;
+        max-width:1024px;
+        margin:0 auto;
+    }
+
+}
