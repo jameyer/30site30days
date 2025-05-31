@@ -1,0 +1,123 @@
+:root {
+    --background: #21333b;
+    --gradient: linear-gradient(
+        132deg,
+        rgba(33, 51, 59, 1) 0%,
+        rgba(40, 141, 127, 1) 100%
+    );
+}
+
+.quicksand-normal {
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: 'wdth' 87.5;
+}
+
+html {
+    background: var(--gradient);
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: 'wdth' 87.5;
+}
+
+p,
+li,
+a,
+td {
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    padding:1rem;
+    line-height:1.2rem;
+    text-align:justify;
+}
+
+img {
+    height: 10rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    padding-top:1rem;
+}
+header p {
+    font-size: 1rem;
+    padding-top:.5rem;
+    
+}
+
+.about-me {
+    margin-top:1rem;
+  
+}
+
+.projects h2, .related-work h2 {
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.personal-info {
+    margin-top:2rem;
+    margin-bottom:1rem;
+}
+
+.personal-info img{
+    border-radius:50%;
+}
+
+.social-media {
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.quotes h2{
+    margin-top:1rem;
+    font-size:1.5rem;
+}
+
+.quotes h3 {
+    font-size:1.2rem;
+    margin-top:1rem;
+}
+
+@media (min-width:480px){
+    .container{
+        max-width:1200px;
+        margin:0 auto;
+    }
+    main {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:3rem;
+    }
+
+
+
+}
+
+
