@@ -1,0 +1,221 @@
+:root {
+    --light-brown: #e6d6d1;
+    --medium-brown: #b3a192;
+    --dark-brown: #665c53;
+    --black: #191714;
+    --button: #f1cbb9;
+}
+
+.dancing-script-bold {
+    font-family: 'Dancing Script', cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-normal {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+}
+
+p,
+a,
+li,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Dancing Script', cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+header {
+    background: linear-gradient(
+            rgba(230, 214, 209, 0.5),
+            rgba(230, 214, 209, 0.5)
+        ),
+        url(../img/ComfyUI_00413_.png) 50% 50% / cover;
+    height: 50rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+}
+.links h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.links p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.links nav {
+    margin-left: auto;
+}
+
+.links ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.links a:hover {
+    background: var(--light-brown);
+}
+
+header h2 {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 7rem;
+    width: 33%;
+    margin: 0 auto;
+}
+
+header p {
+    font-size: 2rem;
+    padding-top: 2rem;
+    margin: 0 auto;
+    width: 33%;
+    text-align: center;
+}
+
+header button {
+    background: var(--button);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin: 0 auto;
+    display: block;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    border: 1px solid white;
+}
+
+header button:hover {
+    background-color: var(--medium-brown);
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--medium-brown);
+    height: 50rem;
+    padding-top: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.two .a {
+    grid-column: span 2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.two div {
+    width: 20rem;
+    height: 35rem;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 2rem;
+    margin-top: 4rem;
+}
+
+.two p {
+    padding: 2rem;
+}
+.two img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.two button {
+    background: var(--button);
+    border: 1px solid var(--light-brown);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.two button:hover {
+    background-color: var(--medium-brown);
+    color: white;
+}
+
+.three {
+    background-color: var(--dark-brown);
+    color: white;
+    padding-top: 2rem;
+}
+
+.three h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2rem;
+    padding:2rem;
+
+}
+.photos img{
+    width:100%;
+}
+
+footer {
+    background-color:var(--black);
+    color:white;
+    height:10rem;
+    text-align:center;
+    padding-top:2rem;
+}
+
+footer h2 {
+    font-size:3rem;
+    padding-bottom:1rem;
+}
+
+footer button{
+    background-color:var(--button);
+    padding:.5rem 1rem;
+    border-radius:.5rem;
+}
+
+footer button:hover{
+    background-color:var(--dark-brown);
+    color:white;
+}
