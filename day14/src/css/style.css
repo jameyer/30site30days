@@ -1,0 +1,210 @@
+:root {
+    --button: #529d13;
+    --text: white;
+    --background: black;
+}
+
+.montserrat-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.funnel-sans-bold{
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+    font-size: 10px;
+    background: var(--background);
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width:1024px;
+    margin:0 auto;
+}
+
+p,
+th,
+button,
+a,
+ul,
+li {
+    font-size: 1.2rem;
+    color: var(--text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color:var(--text);
+
+}
+
+h1 {font-size:2rem;}
+
+h2 {font-size:1.8rem;}
+
+h3 {
+    font-size:1.2rem;
+}
+
+.top-nav ul{
+    display:flex;
+    padding:1rem;
+    gap:2rem;
+    align-items:center;
+}
+
+header{
+    background:url('../img/logo.png') center center no-repeat;
+    width:100%;
+    height:25rem;
+    margin-bottom:1rem;
+    
+    
+}
+header div {
+    padding:1rem;
+}
+
+header h1 {
+    text-align:right;
+    padding-top:8rem;
+}
+
+header p {
+    width:30rem;
+    padding-top:1rem;
+    text-align:right;
+    margin-left:auto;
+}
+
+
+li:last-child{
+    margin-left:auto;
+    
+}
+
+.top-nav button {
+    background-color:var(--button);
+    padding:.5rem 1rem;
+    border-radius:.7rem;
+}
+
+
+
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.col-left {
+    
+
+    width:20rem;
+    
+}
+
+.player-card {
+    display:grid;
+    
+    grid-template-columns: 1fr 2fr 1fr;
+    gap:1rem;
+    align-items:center;
+    background-color:white;
+    
+
+}
+
+.avatar {
+    height:5rem;
+    border-radius:50%;
+    padding-right:0;
+    margin-right:0;
+    
+}
+.player-text, .player-name, .player-game {
+    color:black;
+}
+
+.status{
+    border-radius:50%;
+    background-color:gray;
+    width:2rem;
+    height:2rem;
+}
+
+.online {
+    background-color:green;
+}
+
+.away {
+    background-color: rgb(126, 126, 23);
+}
+
+.dnd {
+    background-color:red;
+}
+
+.ad-img1 {
+    height:20rem;
+    width:20rem;
+}
+
+.ss {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem;
+    
+}
+
+.ss-h2 {
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.ss img{
+    width:98%;
+    border:1px solid white;
+   
+}
+
+.wc {
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+table, td, tr {
+    color:white;
+    font-size:1rem;
+    padding:1rem;
+    border:1px solid white;
+}
+
+footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:1rem;
+    border-bottom:1px solid white;
+    border-top:1px solid white;
+    margin-top:1rem;
+}
+footer li {
+    padding:.2rem;
+}
+
+.legal {
+    padding:1rem;
+    text-align:center;
+}
+
+
