@@ -1,0 +1,156 @@
+/* Google Fonts */
+
+.baloo-regular {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.baloo-bold {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.glegoo-regular {
+    font-family: "Glegoo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.glegoo-bold {
+    font-family: "Glegoo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+:root {
+
+    --gradiant1:#5f4e3a;
+    --gradiant2:#73a697;
+    --button:#678171;
+    --background: linear-gradient(137deg,rgba(95, 78, 58, 1) 0%, rgba(115, 166, 151, 1) 100%);
+    --main-text-color:white;
+
+
+}
+
+html {
+    font-size: 16px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Glegoo", serif;
+    font-weight: 700;
+
+}
+
+a, p, li, button {
+    color:white;
+}
+
+body {
+    background:var(--background);
+    color: var(--main-text-color);
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 98%;
+    margin: 0 auto;
+    font-size:16px;
+    
+   
+
+
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+#container {
+    padding:2rem;
+    
+}
+
+header{
+    display:flex;
+    margin-bottom:2rem;
+}
+
+header ul{
+    display:flex;
+    margin-left:auto;
+    gap:3rem;
+}
+
+header h1{
+    font-size:1rem;
+}
+
+#hero {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:10rem;
+}
+
+#hero h2{
+    margin-bottom:2rem;
+}
+
+#hero p{
+    max-width:20rem;
+    
+    
+}
+
+#hero button{
+    margin-top:10rem;
+    background: var(--button);
+    padding:.5rem 1rem;
+    border-radius: 2rem;
+}
+
+#hero-right img {
+    height:15rem;
+}
+
+main {
+    margin-top:10rem;
+    margin-bottom:5rem;
+}
+
+main p {
+    max-width:30%;
+}
+
+footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom:1rem;
+    padding-top:1rem;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+
+
+
