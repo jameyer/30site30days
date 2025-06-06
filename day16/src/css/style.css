@@ -1,0 +1,163 @@
+/* Google Fonts */
+
+.baloo-regular {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.baloo-bold {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.glegoo-regular {
+    font-family: 'Glegoo', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.glegoo-bold {
+    font-family: 'Glegoo', serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --dark-green: rgb(71, 77, 71);
+    --attn-green: rgb(52, 180, 52);
+}
+
+body {
+    background: var(--dark-green);
+    color: white;
+    font-size: 16px;
+    padding: 2rem;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Glegoo', serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p,
+a {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header h1 {
+    font-size: 3rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+header p {
+    padding-top: 1rem;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+header img {
+    margin-left: auto;
+    height: 20rem;
+}
+
+button {
+    background: var(--attn-green);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px white;
+    margin: 0 0 0 2rem;
+    display: block;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 2rem;
+}
+
+.teacher-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem;
+    align-items: center;
+}
+
+header img {
+    margin-left: auto;
+    height: 15rem;
+}
+
+section img {
+    height: 15rem;
+}
+.teacher-card img {
+    border-radius: 50%;
+    height: 9rem;
+}
+
+@media (max-width: 900px) {
+    header h1 {
+        padding: 0;
+    }
+
+    button {
+        margin-top: 2rem;
+    }
+
+    header img {
+        height: 10rem;
+    }
+    section img {
+        height: 10rem;
+    }
+    .teacher-card img {
+        height: 5rem;
+    }
+}
+
+@media (max-width: 650px) {
+    header h1 {
+        padding: 0;
+    }
+    header p {
+        padding: 1rem 0 0 0;
+        margin: 0;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+    }
+
+    header img {
+        height: 10rem;
+    }
+    section img {
+        height: 8rem;
+    }
+    .teacher-card img {
+        height: 3rem;
+    }
+}
