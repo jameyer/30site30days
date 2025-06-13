@@ -1,0 +1,129 @@
+:root {
+    --primary-color: #040c2e;
+    --secondary-color: #ffffff;
+    --dark-brown: #35332c;
+    --tan: #eaddd2;
+}
+
+/* Fonts */
+
+.prosto-one-regular {
+    font-family: 'Prosto One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comfortaa-regular {
+    font-family: 'Comfortaa', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comfortaa-bold {
+    font-family: 'Comfortaa', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    
+    color: var(--secondary-color);
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Prosto One', sans-serif;
+}
+
+header {
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+header a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+header nav {
+    margin-left: auto;
+}
+
+header ul {
+    display: flex;
+    gap: 4rem;
+    margin: 1rem;
+    align-items: center;
+}
+
+header button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.container {
+    position:relative;
+    background: url('../img/background.png') center center no-repeat;
+    height: 50rem;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.menus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
+    justify-items:center;
+}
+
+.menu {
+    background: white;
+    color: black;
+    width:50%;
+    height:90%;
+
+    padding:1rem;
+    
+}
+
+main {
+    height:20rem;
+    background-color:var(--dark-brown);
+    padding-left:2rem;
+    text-align:center;
+    font-size:3rem;
+
+}
+main h2{
+    padding-top:4rem;
+
+}
+main button {
+    padding:.5rem 1rem;
+    border-radius:.5rem;
+    
+}
+
+footer {
+    height:20rem;
+    background:tan;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    padding-top:2rem;
+    padding-left:2rem;
+}
