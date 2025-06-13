@@ -1,0 +1,135 @@
+.quicksand-400 {
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fugaz-one-regular {
+    font-family: 'Fugaz One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --dark-blue: rgb(38, 64, 139);
+    --medium-blue: rgb(129, 177, 213);
+    --light-blue: rgb(159, 210, 231);
+    --white: white;
+    --black: black;
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--dark-blue);
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+    max-width: 1024px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fugaz One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p,
+button,
+a {
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header img {
+    background-color: white;
+    margin-right: 0.5rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#top-row {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.hero {
+    background: url('../img/hero.png') center top no-repeat;
+    height: 25rem;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 3rem;
+
+    padding-top: 5rem;
+}
+
+.hero button {
+    font-size: 1rem;
+    background-color: var(--medium-blue);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+main {
+    line-height: 1.5;
+}
+
+.watching {
+    display: flex;
+    overflow: hidden;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.watching img {
+    height: 15rem;
+}
+
+.m-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    gap: 1rem;
+}
+.row1 img,
+.row2 img {
+    height: 10rem;
+}
+
+.rows img:hover {
+    height: 11rem;
+}
+
+.watching img:hover {
+    height: 16rem;
+}
